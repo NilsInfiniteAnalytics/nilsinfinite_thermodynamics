@@ -3,6 +3,7 @@ pub const STANDARD_TEMPERATURE: f64 = 273.15; // K
 pub const GAS_CONSTANT: f64 = 8.3144598; // J mol-1 K-1
 pub const MOLAR_MASS_DRY_AIR: f64 = 0.028964; // kg mol-1
 pub const MOLAR_MASS_WATER: f64 = 0.01801528; // kg mol-1
+pub const WATER_TRIPLE_POINT_TEMPERATURE = 273.16; // K
 
 // Derived parameters
 pub const R_D: f64 = GAS_CONSTANT / MOLAR_MASS_DRY_AIR;
